@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pause%20Menu/PauseMenu.uss?fileID=7433441132597879392&amp;guid=56809515dd04acd43ae8305f61fca9ac&amp;type=3#PauseMenu" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.31); padding-top: 100px; padding-bottom: 100px;">
+        <ui:Label tabindex="-1" text="MENU" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PausedTitle" class="title" />
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; align-self: center; align-items: center; justify-content: center;">
+            <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Resume-Button" class="primary-button menu-button" style="width: 335px; -unity-text-align: middle-center;" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings-Button" class="secondary-button menu-button" style="-unity-text-align: middle-center;" />
+            <ui:Button text="Quit to Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit-To-Menu-Button" class="secondary-button menu-button" style="width: 555px; -unity-text-align: middle-center;" />
+            <ui:Button text="Quit to Desktop" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Quit-To-Desktop" class="secondary-button menu-button" style="width: 477px; -unity-text-align: middle-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
